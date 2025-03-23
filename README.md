@@ -1,94 +1,48 @@
-# Understanding-Passenger-Survival-on-the-Titanic
-Insights into passenger demographics and survival probabilities
-# 🚢 Understanding Passenger Survival on the Titanic
+  ## **Understanding Passenger Survival on the Titanic**
+  
 
-![Titanic](https://upload.wikimedia.org/wikipedia/commons/f/fd/RMS_Titanic_3.jpg)
+🚢 Insights into Passenger Demographics and Survival Probabilities
 
-## 📌 Overview
-This project explores passenger survival on the Titanic using **Exploratory Data Analysis (EDA)**. The goal is to identify factors that influenced survival rates and gain insights into the data.  
+📌 Overview
 
-## 📂 Dataset Information
-- **Dataset Source**: [Titanic Dataset (Kaggle)](https://www.kaggle.com/competitions/titanic/data)  
-- **Columns Include**:  
-  - `Survived` (Target Variable: 0 = No, 1 = Yes)  
-  - `Pclass` (Passenger Class: 1st, 2nd, 3rd)  
-  - `Sex` (Male/Female)  
-  - `Age`, `Fare`, `SibSp`, `Parch`, etc.  
+This project explores passenger survival on the Titanic using Exploratory Data Analysis (EDA). The goal is to analyze different factors influencing survival rates and gain deeper insights through visualizations.
 
-## 🔍 Steps in the Analysis  
-This project follows a structured **EDA** process:  
-1. **Data Loading**: Read the dataset using Pandas.  
-2. **Data Cleaning**: Handle missing values and remove duplicates.  
-3. **Feature Engineering**: Create new variables like `FamilySize` and `Title`.  
-4. **Visualizations**: Generate insights using histograms, bar charts, and heatmaps.  
-5. **Correlation Analysis**: Identify relationships between variables and survival.  
-6. **Summary of Findings**: Key insights from the analysis.  
+📂 Dataset Information
 
-## 📊 Visualizations  
-Here are some visual insights from the dataset:  
-### **Survival Rate by Passenger Class**  
-<img src="images/survival_bar_chart.png" width="500">
+Source: Titanic Dataset (Kaggle)
 
-### **Correlation Heatmap**  
-<img src="images/correlation_heatmap.png" width="500">  
+Columns Include:
 
-## 🚀 How to Use  
-To run this project on your local machine:  
-```bash
-git clone https://github.com/AfnanNadeem-13/Understanding-Passenger-Survival-on-the-Titanic.git
-cd Understanding-Passenger-Survival-on-the-Titanic
-jupyter notebook
+Survived (Target Variable: 0 = No, 1 = Yes)
 
-🚢 Understanding Passenger Survival on the Titanic
+Pclass (Passenger Class: 1st, 2nd, 3rd)
 
+Sex (Male/Female)
 
-📌 Table of Contents
-Overview
+Age, Fare, SibSp, Parch (Various Passenger Attributes)
 
-Dataset Information
+🔍 Steps in the Analysis
 
-Key Findings
+This project follows a structured EDA process:
 
-Installation
+1️⃣ Data Loading: Read the dataset using Pandas.2️⃣ Data Cleaning: Handle missing values, remove duplicates, and check for inconsistencies.3️⃣ Feature Engineering: Create new variables like FamilySize and Title.4️⃣ Visualizations: Generate insights using histograms, bar charts, and heatmaps.5️⃣ Correlation Analysis: Identify relationships between variables and survival.6️⃣ Summary of Findings: Key insights from the analysis.
 
-Visualizations
+📊 Visualizations
 
-Conclusions
+Here are some key visual insights from the dataset:
 
-License
+Survival Rate by Passenger Class
 
-Contact
+Correlation Heatmap
 
-📖 Overview
-🚢 Did wealth, age, or gender determine survival on the Titanic? This project explores the Titanic dataset using Exploratory Data Analysis (EDA) to uncover key insights into passenger survival rates.
+Age Distribution of Survivors vs. Non-Survivors
 
-Through visualizations and statistical analysis, we examine how different factors such as class, fare, age, and family size influenced survival.
+📌 (Replace the placeholder image links with actual uploaded images from your GitHub repository.)
 
-📊 Dataset Information
-The dataset used for this analysis is the Titanic Dataset from Kaggle. It includes details about passengers, such as:
+🚀 How to Use
 
-Age, Gender
+To run this project on your local machine, follow these steps:
 
-Ticket Class (1st, 2nd, 3rd)
-
-Number of Siblings/Spouses Aboard
-
-Number of Parents/Children Aboard
-
-Ticket Fare
-
-🔍 Key Findings
-✅ Women had a higher survival rate than men.
-✅ 1st class passengers survived more often than lower classes.
-✅ Higher fares correlated with better survival chances.
-✅ Passengers traveling alone had lower survival rates than those with family.
-
-⚙️ Installation
-To run this project locally, follow these steps:
-
-bash
-Copy
-Edit
 # Clone the repository
 git clone https://github.com/AfnanNadeem-13/Understanding-Passenger-Survival-on-the-Titanic.git
 
@@ -100,28 +54,21 @@ pip install -r requirements.txt
 
 # Run Jupyter Notebook
 jupyter notebook
-📊 Visualizations
-Below are some of the visualizations used in this project:
 
-1️⃣ Survival Rate by Gender
-2️⃣ Passenger Class Distribution
-3️⃣ Age Distribution of Survivors vs. Non-Survivors
-4️⃣ Correlation Heatmap (Feature Relationships)
+📌 Key Findings
 
-🔹 Screenshot Example:
-
-
-
-📌 Conclusions
-Women and children had higher survival rates.
-
-Wealthier passengers (higher ticket fare) had better chances of survival.
-
-People traveling alone had lower survival rates compared to those with family members.
+✅ Women had a higher survival rate than men.✅ 1st class passengers survived more often than lower classes.✅ Higher fares correlated with better survival chances.✅ Passengers traveling alone had lower survival rates than those with family.
 
 📝 License
-This project is licensed under the MIT License.
+
+This project is open-source and available under the MIT License. Feel free to use and modify it as needed!
 
 📬 Contact
-💡 Created by Afnan Nadeem
-📧 Feel free to reach out for collaboration!
+
+💡 Created by: Afnan Nadeem📧 Email: [your_email_here@example.com]🌐 GitHub: AfnanNadeem-13
+
+📌 Feel free to reach out for collaboration or improvements!
+
+
+
+
