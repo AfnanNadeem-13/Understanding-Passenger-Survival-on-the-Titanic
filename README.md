@@ -38,3 +38,90 @@ To run this project on your local machine:
 git clone https://github.com/AfnanNadeem-13/Understanding-Passenger-Survival-on-the-Titanic.git
 cd Understanding-Passenger-Survival-on-the-Titanic
 jupyter notebook
+
+🚢 Understanding Passenger Survival on the Titanic
+
+
+📌 Table of Contents
+Overview
+
+Dataset Information
+
+Key Findings
+
+Installation
+
+Visualizations
+
+Conclusions
+
+License
+
+Contact
+
+📖 Overview
+🚢 Did wealth, age, or gender determine survival on the Titanic? This project explores the Titanic dataset using Exploratory Data Analysis (EDA) to uncover key insights into passenger survival rates.
+
+Through visualizations and statistical analysis, we examine how different factors such as class, fare, age, and family size influenced survival.
+
+📊 Dataset Information
+The dataset used for this analysis is the Titanic Dataset from Kaggle. It includes details about passengers, such as:
+
+Age, Gender
+
+Ticket Class (1st, 2nd, 3rd)
+
+Number of Siblings/Spouses Aboard
+
+Number of Parents/Children Aboard
+
+Ticket Fare
+
+🔍 Key Findings
+✅ Women had a higher survival rate than men.
+✅ 1st class passengers survived more often than lower classes.
+✅ Higher fares correlated with better survival chances.
+✅ Passengers traveling alone had lower survival rates than those with family.
+
+⚙️ Installation
+To run this project locally, follow these steps:
+
+bash
+Copy
+Edit
+# Clone the repository
+git clone https://github.com/AfnanNadeem-13/Understanding-Passenger-Survival-on-the-Titanic.git
+
+# Navigate to the project directory
+cd Understanding-Passenger-Survival-on-the-Titanic
+
+# Install required dependencies
+pip install -r requirements.txt
+
+# Run Jupyter Notebook
+jupyter notebook
+📊 Visualizations
+Below are some of the visualizations used in this project:
+
+1️⃣ Survival Rate by Gender
+2️⃣ Passenger Class Distribution
+3️⃣ Age Distribution of Survivors vs. Non-Survivors
+4️⃣ Correlation Heatmap (Feature Relationships)
+
+🔹 Screenshot Example:
+
+
+
+📌 Conclusions
+Women and children had higher survival rates.
+
+Wealthier passengers (higher ticket fare) had better chances of survival.
+
+People traveling alone had lower survival rates compared to those with family members.
+
+📝 License
+This project is licensed under the MIT License.
+
+📬 Contact
+💡 Created by Afnan Nadeem
+📧 Feel free to reach out for collaboration!
