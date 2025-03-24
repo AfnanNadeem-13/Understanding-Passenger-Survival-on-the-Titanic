@@ -65,7 +65,7 @@ This project is open-source and available under the MIT License. Feel free to us
 
 📬 Contact
 
-💡 Created by: Afnan Nadeem📧 Email: [your_email_here@example.com]🌐 GitHub: AfnanNadeem-13
+💡 Created by: Afnan Nadeem📧 Email: nadeemafnan13@gmail.com]🌐 GitHub: AfnanNadeem-13
 
 📌 Feel free to reach out for collaboration or improvements!
 
